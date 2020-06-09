@@ -3951,3 +3951,21 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+	#header-info{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	#header-title{
+		height: fit-content;
+		width: fit-content;
+	}
+	#header-picture{
+		height: 150px;
+		width: 150px;
+	}
+
+	
