@@ -3952,20 +3952,32 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-	#header-info{
+	/* .header-info{
 		display: flex;
 		flex-direction: row;
 		width: 100%;
 		justify-content: space-between;
 	}
 
-	#header-title{
+	.header-title{
 		height: fit-content;
 		width: fit-content;
 	}
-	#header-picture{
+	.header-picture{
 		height: 150px;
 		width: 150px;
+	} */
+
+	.header-title-picture{
+		display: flex !important;
+		align-items: center !important;
+		justify-content: center !important;
 	}
 
+	.headshot{
+		border-radius: 50%;
+	}
 	
+	#banner.major{
+		justify-content: space-between;
+	}
