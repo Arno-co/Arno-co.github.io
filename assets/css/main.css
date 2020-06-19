@@ -3952,22 +3952,6 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-	/* .header-info{
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		justify-content: space-between;
-	}
-
-	.header-title{
-		height: fit-content;
-		width: fit-content;
-	}
-	.header-picture{
-		height: 150px;
-		width: 150px;
-	} */
-
 	.header-title-picture{
 		display: flex !important;
 		align-items: center !important;
@@ -3980,4 +3964,8 @@ input, select, textarea {
 	
 	#banner.major{
 		justify-content: space-between;
+	}
+
+	#title{
+		text-align: center;
 	}
