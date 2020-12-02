@@ -3485,6 +3485,7 @@ input, select, textarea {
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
+			/* background-image: url("../../images/pic07.jpg");   */
 		}
 
 			#banner.major.alt {
